@@ -1,3 +1,6 @@
 export let db = {
-  query: async (params) => console.log(`Query: `, params),
+  query: async (params) => {
+    console.log(`Query: `, params)
+    return params
+  },
 }
